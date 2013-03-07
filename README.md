@@ -17,7 +17,7 @@ import org.dtotxml.annotation.tag.XMLFiled;
  */
 public class Message {
   @XMLFiled(fildName="newMessage")
-	public String dataName;
+        public String dataName;
 	@XMLFiled(fildName="qvodzy")
 	public String title;
 	@XMLFiled(fildName="qvodzy",attributeName="NAME")
