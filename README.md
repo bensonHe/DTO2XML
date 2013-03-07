@@ -65,7 +65,7 @@
   public void testThisGuy() throws IllegalArgumentException,<br />
   IllegalAccessException, ParserConfigurationException, TransformerFactoryConfigurationError, TransformerException {<br />
   Message message = new Message();<br />
-  message.setDataName(http://www.qvodzy.cc&quot;);<br />
+  message.setDataName(http://www.qvodzy.cc);<br />
   message.setTitle(&quot;qvod source web&quot;);<br />
   message.setName(&quot;qvod&quot;);<br />
   message.setAdreess(&quot;qvodzy.cc&quot;);<br />
@@ -76,7 +76,7 @@
 <p>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;<br />
   &lt;message&gt;<br />
   &lt;qvodzy ADRESS=&quot;qvodzy.cc&quot; DESCRIPTION=&quot;this is a firm web&quot; NAME=&quot;qvod&quot;&gt;qvod source web&lt;/qvodzy&gt;<br />
-  &lt;newMessage&gt;http://www.qvodzy.cc&lt;/newMessage&gt;<br />
+  &lt;newMessage&gt;http://www.qvodzy.cc &lt;/newMessage&gt;<br />
   &lt;/message&gt;</p>
 <p>//the Advantage is small and without any another lib,<br />
   //in the next vision. I will add SAX to format xml to support big data </p>
