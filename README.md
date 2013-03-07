@@ -1,4 +1,3 @@
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>DTO2XML</title>
@@ -66,7 +65,7 @@
   public void testThisGuy() throws IllegalArgumentException,<br />
   IllegalAccessException, ParserConfigurationException, TransformerFactoryConfigurationError, TransformerException {<br />
   Message message = new Message();<br />
-  message.setDataName(&quot;http://www.qvodzy.cc&quot;);<br />
+  message.setDataName(http://www.qvodzy.cc&quot;);<br />
   message.setTitle(&quot;qvod source web&quot;);<br />
   message.setName(&quot;qvod&quot;);<br />
   message.setAdreess(&quot;qvodzy.cc&quot;);<br />
